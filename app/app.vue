@@ -16,9 +16,9 @@ useHead({
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico' },
-    { key: 'canonical', rel: 'canonical', href:`https://salesmartly.${config.public.SITE_URL}${route.path}/` },
-    {  rel: 'alternate', href:`https://salesmartly.${config.public.SITE_URL}${cleanPath.value}/` ,hreflang:"x-default"},
-    {  rel: 'alternate', href:`https://salesmartly.${config.public.SITE_URL}/en${cleanPath.value}/` ,hreflang:"en"},
+    { key: 'canonical', rel: 'canonical', href:`https://help.salesmartly.${config.public.SITE_URL}${route.path}/` },
+    {  rel: 'alternate', href:`https://help.salesmartly.${config.public.SITE_URL}${cleanPath.value}/` ,hreflang:"x-default"},
+    {  rel: 'alternate', href:`https://help.salesmartly.${config.public.SITE_URL}/en${cleanPath.value}/` ,hreflang:"en"},
 
   ],
   htmlAttrs: {

@@ -36,7 +36,7 @@ useSeoMeta({
   description,
   ogDescription:  page.value.meta.ogDescription ||description,
   ogImage: page.value.meta.ogImage ,
-  ogUrl:`https://salesmartly.${config.public.SITE_URL}${page.value.path}/` ,
+  ogUrl:`https://help.salesmartly.${config.public.SITE_URL}${page.value.path}/` ,
   ogType: 'article',
   twitterCard:page.value.meta.twitterCard||'summary_large_image',
   twitterSite:page.value.meta.twitterSite || (config.public.SITE_URL=='vn'? "@SalesmartlyVietnam" : "@SalesmartlyIndonesia" ),
