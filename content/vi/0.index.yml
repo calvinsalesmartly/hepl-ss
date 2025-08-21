@@ -1,0 +1,150 @@
+title: Biến đổi Hỗ trợ Khách hàng với SaleSmartly
+description: SaleSmartly là nền tảng giao tiếp khách hàng đa kênh thống nhất live chat, WhatsApp, Facebook Messenger, Instagram, TikTok, Telegram, LINE, Email, VKontakte và WeChat vào một bảng điều khiển mạnh mẽ. Được xây dựng cho doanh nghiệp mọi quy mô.
+seo:
+  title: SaleSmartly - Nền tảng Hỗ trợ Khách hàng Đa kênh
+  description: Biến đổi hỗ trợ khách hàng với nền tảng giao tiếp thống nhất của SaleSmartly. Tích hợp live chat, WhatsApp, Facebook Messenger và hơn 8 kênh vào một bảng điều khiển.
+navigation: false
+hero:
+  links:
+    - label: Dùng thử miễn phí
+      icon: i-lucide-arrow-right
+      trailing: true
+      to: https://app.salesmartly.com/registration?agent=vn
+      target: _blank
+      size: xl
+    - label: Xem Demo
+      icon: i-lucide-play
+      size: xl
+      color: neutral
+      variant: subtle
+      to: /docs
+      target: _blank
+sections:
+  - title: Trung tâm Giao tiếp Đa kênh
+    description: Thống nhất tất cả cuộc trò chuyện khách hàng trong một bảng điều khiển mạnh mẽ. Từ live chat đến tin nhắn mạng xã hội, quản lý mọi tương tác một cách liền mạch qua hơn 10 kênh giao tiếp.
+    id: features
+    orientation: horizontal
+    features:
+      - name: Tích hợp Đa kênh
+        description: Kết nối LiveChat, WhatsApp, Facebook, Instagram, TikTok, Telegram, LINE, Email, VKontakte và WeChat trong một nền tảng.
+        icon: i-lucide-message-square
+      - name: Dịch thuật Thời gian thực
+        description: Phá vỡ rào cản ngôn ngữ với tính năng dịch tự động giữa bạn và khách hàng từ khắp nơi trên thế giới.
+        icon: i-lucide-languages
+      - name: Tự động hóa AI 24/7
+        description: Chatbot được hỗ trợ bởi AI cung cấp phản hồi tức thì và xử lý các câu hỏi thường gặp suốt ngày đêm.
+        icon: i-lucide-bot-message-square
+  - title: Thông tin Khách hàng Thông minh
+    description: Biến hành vi khách truy cập thành thông tin hành động. Theo dõi hành trình khách hàng, phân tích sở thích và cung cấp trải nghiệm cá nhân hóa thúc đẩy chuyển đổi và giữ chân.
+    orientation: horizontal
+    reverse: true
+    features:
+      - name: Theo dõi Khách truy cập
+        description: Giám sát hành vi duyệt web, nguồn giới thiệu và sở thích sản phẩm để hiểu ý định của khách hàng.
+        icon: i-lucide-eye
+      - name: Cơ sở dữ liệu Khách hàng
+        description: Xây dựng hồ sơ toàn diện với lịch sử tương tác, sở thích và dữ liệu đồng bộ hóa qua các hệ thống.
+        icon: i-lucide-database
+      - name: Phân tích Hiệu suất
+        description: Báo cáo đa chiều để giám sát chất lượng dịch vụ, thời gian phản hồi và chỉ số chuyển đổi.
+        icon: i-lucide-chart-line
+features:
+  title: Tính năng Mạnh mẽ cho Hỗ trợ Hiện đại
+  description: Mọi thứ bạn cần để cung cấp dịch vụ khách hàng xuất sắc, từ liên hệ ban đầu đến chuyển đổi. Tối ưu hóa hoạt động với tự động hóa thông minh và thông tin chi tiết.
+  items:
+    - title: Widget Live Chat
+      description: Widget chat có thể tùy chỉnh phù hợp với phong cách thương hiệu của bạn với khảo sát thu thập khách hàng tiềm năng và tin nhắn chủ động.
+      icon: i-lucide-message-circle
+    - title: Bảng điều khiển Đa kênh
+      description: Tập trung tất cả cuộc hội thoại từ hơn 10 kênh bao gồm mạng xã hội, ứng dụng nhắn tin và email trong một giao diện.
+      icon: i-lucide-layout-dashboard
+    - title: Tự động hóa được hỗ trợ bởi AI
+      description: Chatbot thông minh với các mẫu có sẵn cho tin nhắn chào mừng, cập nhật đơn hàng và khuyến mãi giảm giá.
+      icon: i-lucide-bot-message-square
+    - title: Dịch thuật Thời gian thực
+      description: Dịch tin nhắn tự động để giao tiếp dễ dàng với khách hàng bằng bất kỳ ngôn ngữ nào.
+      icon: i-lucide-globe
+    - title: Quản lý Quan hệ Khách hàng
+      description: CRM toàn diện với theo dõi tương tác, lịch sử duyệt web và dữ liệu khách hàng đồng bộ hóa.
+      icon: i-lucide-users
+    - title: Phân tích Nâng cao
+      description: Báo cáo chi tiết về chất lượng dịch vụ, hiệu suất nhóm và mô hình hành vi khách hàng.
+      icon: i-lucide-bar-chart
+testimonials:
+  headline: Câu chuyện Thành công Khách hàng
+  title: Được tin tưởng bởi các Doanh nghiệp Đang phát triển
+  description: Tham gia cùng hàng nghìn công ty trên toàn thế giới đã biến đổi hỗ trợ khách hàng của họ với nền tảng giao tiếp thống nhất của SaleSmartly.
+  items:
+    - quote: SaleSmartly đã cách mạng hóa hỗ trợ khách hàng của chúng tôi. Quản lý WhatsApp, Instagram và live chat từ một bảng điều khiển đã tăng hiệu suất của nhóm chúng tôi lên 300%. Tính năng dịch thuật thời gian thực giúp chúng tôi mở rộng ra thị trường quốc tế một cách liền mạch.
+      user:
+        name: Maria Rodriguez
+        description: Quản lý Thành công Khách hàng tại GlobalTech
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+    - quote: Tự động hóa AI xử lý 60% các câu hỏi thường gặp của chúng tôi, cho phép nhóm tập trung vào các vấn đề phức tạp. Điểm hài lòng khách hàng của chúng tôi cải thiện từ 3.2 lên 4.8 sao chỉ trong vòng 3 tháng triển khai.
+      user:
+        name: David Chen
+        description: Trưởng phòng Vận hành Hỗ trợ tại E-commerce Plus
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+    - quote: Theo dõi khách truy cập và thông tin khách hàng thật sự thay đổi cuộc chơi. Chúng tôi có thể thấy chính xác những sản phẩm khách hàng đã xem trước khi liên hệ, cho phép chúng tôi cung cấp đề xuất cá nhân hóa làm tăng tỷ lệ chuyển đổi 45%.
+      user:
+        name: Sarah Kim
+        description: Giám đốc Bán hàng tại FashionForward
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+    - quote: Quản lý cuộc trò chuyện khách hàng qua Facebook, Instagram và TikTok trước đây rất hỗn loạn. Bây giờ mọi thứ được tổ chức ở một nơi, và thời gian phản hồi của chúng tôi cải thiện từ hàng giờ xuống còn vài phút.
+      user:
+        name: Ahmed Hassan
+        description: Quản lý Mạng xã hội tại TrendyBrands
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+    - quote: Widget chat có thể tùy chỉnh phù hợp hoàn hảo với thương hiệu của chúng tôi, và khảo sát thu thập khách hàng tiềm năng giúp chúng tôi thu thập nhiều hơn 40% khách hàng tiềm năng chất lượng. ROI đã rõ ràng ngay trong tháng đầu tiên.
+      user:
+        name: Emily Watson
+        description: Giám đốc Marketing tại ServicePro
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+    - quote: Là một doanh nghiệp đang phát triển, chúng tôi cần một giải pháp có thể mở rộng cùng với chúng tôi. Giá cả linh hoạt và tính năng mạnh mẽ của SaleSmartly hỗ trợ sự phát triển của chúng tôi từ 100 lên 10.000 cuộc hội thoại hàng tháng.
+      user:
+        name: Michael Torres
+        description: CEO tại StartupSuccess
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+    - quote: Hỗ trợ đa ngôn ngữ rất quan trọng cho việc mở rộng châu Âu của chúng tôi. Khách hàng có thể chat bằng ngôn ngữ bản địa trong khi nhóm của chúng tôi nhận được tin nhắn đã dịch - điều này cực kỳ hiệu quả.
+      user:
+        name: Lisa Patel
+        description: Vận hành Quốc tế tại BorderlessCommerce
+        avatar:
+          src: https://i.pravatar.cc/120?img=11
+    - quote: Bảng điều khiển phân tích toàn diện cung cấp cho chúng tôi những thông tin mà chúng tôi chưa bao giờ có trước đây. Chúng tôi có thể theo dõi hiệu suất nhóm, sự hài lòng của khách hàng và xác định cơ hội cải thiện theo thời gian thực.
+      user:
+        name: James Wilson
+        description: Quản lý Trải nghiệm Khách hàng tại DataDriven
+        avatar:
+          src: https://i.pravatar.cc/120?img=10
+    - quote: Tích hợp với CRM hiện có của chúng tôi rất liền mạch. Dữ liệu khách hàng đồng bộ hóa tự động, cung cấp cho nhóm bán hàng khả năng hiển thị hoàn toàn về các tương tác hỗ trợ và cải thiện tỷ lệ chốt đơn.
+      user:
+        name: Rachel Zhang
+        description: Vận hành Bán hàng tại TechSolutions
+        avatar:
+          src: https://i.pravatar.cc/120?img=12
+    - quote: Chatbot AI 24/7 xử lý múi giờ quốc tế một cách hoàn hảo. Khách hàng của chúng tôi nhận được phản hồi tức thì ngay cả khi nhóm của chúng tôi offline, và các vấn đề phức tạp được chuyển giao liền mạch cho nhân viên.
+      user:
+        name: Thomas Mueller
+        description: Trưởng phòng Hỗ trợ Toàn cầu tại WorldWideServices
+        avatar:
+          src: https://i.pravatar.cc/120?img=14
+cta:
+  title: Bắt đầu Biến đổi Hỗ trợ Khách hàng của bạn Ngay hôm nay
+  description: Tham gia cùng hàng nghìn doanh nghiệp sử dụng SaleSmartly để cung cấp trải nghiệm khách hàng xuất sắc qua tất cả các kênh.
+  links:
+    - label: Dùng thử miễn phí
+      to: https://app.salesmartly.com/registration?agent=vn
+      target: _blank
+      icon: i-lucide-rocket
+    - label: Xem Bảng giá
+      to: https://salesmartly.vn/pricing
+      trailingIcon: i-lucide-external-link
+      target: _blank
+      variant: subtle

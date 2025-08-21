@@ -1,30 +1,39 @@
 <script setup lang="ts">
 const route = useRoute()
+const { locale } = useI18n()
+const localePath = useLocalePath() 
+const config = useRuntimeConfig()
+const cleanPath = useCleanPath()
 
-const items = computed(() => [{
-  label: 'Docs',
-  to: '/docs',
-  active: route.path.startsWith('/docs')
-}, {
-  label: 'Pricing',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  to: '/blog'
-}, {
-  label: 'Changelog',
-  to: '/changelog',
-  badge: {
-    label: 'New',
-    color: 'primary' as const
+const items = computed(() => [
+  {
+    label: 'Docs',
+    to: localePath('docs'),
+    active: cleanPath.value.startsWith('/docs')
+  },
+  {
+    label: 'Pricing',
+    to: `https://salesmartly.${config.public.SITE_URL}/pricing/`
   }
-}])
+  // {
+  //   label: 'Blog',
+  //   to: '/blog'
+  // },
+  // {
+  //   label: 'Changelog',
+  //   to: '/changelog',
+  //   badge: {
+  //     label: 'New',
+  //     color: 'primary' as const
+  //   }
+  // }
+])
 </script>
 
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/">
+      <NuxtLink :to="localePath('index')">
         <LogoPro class="w-auto h-6 shrink-0" />
       </NuxtLink>
       <TemplateMenu />
@@ -42,7 +51,7 @@ const items = computed(() => [{
         icon="i-lucide-log-in"
         color="neutral"
         variant="ghost"
-        to="/login"
+        :to="`https://app.salesmartly.com/login?agent=${config.public.SITE_URL}`"
         class="lg:hidden"
       />
 
@@ -50,7 +59,7 @@ const items = computed(() => [{
         label="Sign in"
         color="neutral"
         variant="outline"
-        to="/login"
+        :to="`https://app.salesmartly.com/login?agent=${config.public.SITE_URL}`"
         class="hidden lg:inline-flex"
       />
 
@@ -59,7 +68,7 @@ const items = computed(() => [{
         color="neutral"
         trailing-icon="i-lucide-arrow-right"
         class="hidden lg:inline-flex"
-        to="/signup"
+        :to="`https://app.salesmartly.com/registration?agent=${config.public.SITE_URL}`"
       />
     </template>
 
@@ -76,14 +85,14 @@ const items = computed(() => [{
         label="Sign in"
         color="neutral"
         variant="subtle"
-        to="/login"
+        :to="`https://app.salesmartly.com/login?agent=${config.public.SITE_URL}`"
         block
         class="mb-3"
       />
       <UButton
         label="Sign up"
         color="neutral"
-        to="/signup"
+        :to="`https://app.salesmartly.com/registration?agent=${config.public.SITE_URL}`"
         block
       />
     </template>

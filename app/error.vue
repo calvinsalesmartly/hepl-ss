@@ -18,27 +18,34 @@ useSeoMeta({
   title: 'Page not found',
   description: 'We are sorry but this page could not be found.'
 })
-
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'), {
-  transform: data => data.find(item => item.path === '/docs')?.children || []
+const { locale } = useI18n()
+const localePath = useLocalePath() 
+const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs_' + locale.value), {
+  transform: data => data.find(item => item.path === `/${locale.value}/docs`)?.children || []
+}, {
+  watch: [locale] // Refetch when locale changes
 })
-const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs'), {
+const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs_' + locale.value), {
   server: false
+}, {
+  watch: [locale] // Refetch when locale changes
 })
-
+const config = useRuntimeConfig()
 const links = [{
   label: 'Docs',
   icon: 'i-lucide-book',
-  to: '/docs/getting-started'
+  to: localePath('docs')
 }, {
   label: 'Pricing',
   icon: 'i-lucide-credit-card',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  icon: 'i-lucide-pencil',
-  to: '/blog'
-}]
+  to: `https://salesmartly.${config.public.SITE_URL}/pricing/`
+}
+// {
+//   label: 'Blog',
+//   icon: 'i-lucide-pencil',
+//   to: '/blog'
+// }
+]
 </script>
 
 <template>

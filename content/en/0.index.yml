@@ -1,0 +1,150 @@
+title: Transform Customer Support with SaleSmartly
+description: SaleSmartly is an omnichannel customer communication platform that unifies live chat, WhatsApp, Facebook Messenger, Instagram, TikTok, Telegram, LINE, Email, VKontakte, and WeChat into one powerful dashboard. Built for businesses of all sizes.
+seo:
+  title: SaleSmartly - Omnichannel Customer Support Platform
+  description: Transform your customer support with SaleSmartly's unified communication platform. Integrate live chat, WhatsApp, Facebook Messenger, and 8+ channels into one dashboard.
+navigation: false
+hero:
+  links:
+    - label: Start Free Trial
+      icon: i-lucide-arrow-right
+      trailing: true
+      to: https://app.salesmartly.com/registration?agent=vn
+      target: _blank
+      size: xl
+    - label: Watch Demo
+      icon: i-lucide-play
+      size: xl
+      color: neutral
+      variant: subtle
+      to: /en/docs
+      target: _blank
+sections:
+  - title: Omnichannel Communication Hub
+    description: Unite all your customer conversations in one powerful dashboard. From live chat to social media messaging, manage every interaction seamlessly across 10+ communication channels.
+    id: features
+    orientation: horizontal
+    features:
+      - name: Multi-Channel Integration
+        description: Connect LiveChat, WhatsApp, Facebook, Instagram, TikTok, Telegram, LINE, Email, VKontakte, and WeChat in one platform.
+        icon: i-lucide-message-square
+      - name: Real-Time Translation
+        description: Break language barriers with automatic translation between you and customers from around the world.
+        icon: i-lucide-languages
+      - name: 24/7 AI Automat
+        description: AI-powered chatbots provide instant responses and handle routine inquiries around the clock.
+        icon: i-lucide-bot-message-square
+  - title: Intelligent Customer Insights
+    description: Transform visitor behavior into actionable insights. Track customer journeys, analyze preferences, and deliver personalized experiences that drive conversion and retention.
+    orientation: horizontal
+    reverse: true
+    features:
+      - name: Visitor Tracking
+        description: Monitor browsing behavior, referral sources, and product interests to understand customer intent.
+        icon: i-lucide-eye
+      - name: Customer Database
+        description: Build comprehensive profiles with interaction history, preferences, and synchronized data across systems.
+        icon: i-lucide-database
+      - name: Performance Analytics
+        description: Multi-dimensional reporting to monitor service quality, response times, and conversion metrics.
+        icon: i-lucide-chart-line
+features:
+  title: Powerful Features for Modern Support
+  description: Everything you need to deliver exceptional customer service, from initial contact to conversion. Streamline operations with intelligent automation and insights.
+  items:
+    - title: Live Chat Widget
+      description: Customizable chat widget that matches your brand style with lead capture surveys and proactive messaging.
+      icon: i-lucide-message-circle
+    - title: Omni-Channel Dashboard
+      description: Centralize all conversations from 10+ channels including social media, messaging apps, and email in one interface.
+      icon: i-lucide-layout-dashboard
+    - title: AI-Powered Automation
+      description: Smart chatbots with pre-built templates for welcome messages, order updates, and discount promotions.
+      icon: i-lucide-bot-message-square
+    - title: Real-Time Translation
+      description: Automatic message translation to communicate effortlessly with customers in any language.
+      icon: i-lucide-globe
+    - title: Customer Relationship Management
+      description: Comprehensive CRM with interaction tracking, browsing history, and synchronized customer data.
+      icon: i-lucide-users
+    - title: Advanced Analytics
+      description: Detailed reports on service quality, team performance, and customer behavior patterns.
+      icon: i-lucide-bar-chart
+testimonials:
+  headline: Customer Success Stories
+  title: Trusted by Growing Businesses
+  description: Join thousands of companies worldwide who have transformed their customer support with SaleSmartly's unified communication platform.
+  items:
+    - quote: SaleSmartly revolutionized our customer support. Managing WhatsApp, Instagram, and live chat from one dashboard increased our team's efficiency by 300%. The real-time translation feature helped us expand to international markets seamlessly.
+      user:
+        name: Maria Rodriguez
+        description: Customer Success Manager at GlobalTech
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+    - quote: The AI automation handles 60% of our routine inquiries, allowing our team to focus on complex issues. Our customer satisfaction scores improved from 3.2 to 4.8 stars within just 3 months of implementation.
+      user:
+        name: David Chen
+        description: Support Operations Lead at E-commerce Plus
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+    - quote: The visitor tracking and customer insights are game-changing. We can see exactly what products customers viewed before reaching out, allowing us to provide personalized recommendations that increased our conversion rate by 45%.
+      user:
+        name: Sarah Kim
+        description: Sales Director at FashionForward
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+    - quote: Managing customer conversations across Facebook, Instagram, and TikTok was chaotic before SaleSmartly. Now everything is organized in one place, and our response time improved from hours to minutes.
+      user:
+        name: Ahmed Hassan
+        description: Social Media Manager at TrendyBrands
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+    - quote: The customizable chat widget perfectly matches our brand, and the lead capture surveys helped us collect 40% more qualified leads. The ROI was evident within the first month.
+      user:
+        name: Emily Watson
+        description: Marketing Director at ServicePro
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+    - quote: As a growing business, we needed a solution that could scale with us. SaleSmartly's flexible pricing and powerful features supported our growth from 100 to 10,000 monthly conversations.
+      user:
+        name: Michael Torres
+        description: CEO at StartupSuccess
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+    - quote: The multi-language support was crucial for our European expansion. Customers can chat in their native language while our team receives translated messages - it's incredibly efficient.
+      user:
+        name: Lisa Patel
+        description: International Operations at BorderlessCommerce
+        avatar:
+          src: https://i.pravatar.cc/120?img=11
+    - quote: The comprehensive analytics dashboard gives us insights we never had before. We can track team performance, customer satisfaction, and identify improvement opportunities in real-time.
+      user:
+        name: James Wilson
+        description: Customer Experience Manager at DataDriven
+        avatar:
+          src: https://i.pravatar.cc/120?img=10
+    - quote: Integration with our existing CRM was seamless. Customer data synchronizes automatically, giving our sales team complete visibility into support interactions and improving our close rate.
+      user:
+        name: Rachel Zhang
+        description: Sales Operations at TechSolutions
+        avatar:
+          src: https://i.pravatar.cc/120?img=12
+    - quote: The 24/7 AI chatbot handles international time zones perfectly. Our customers get instant responses even when our team is offline, and complex issues are seamlessly transferred to human agents.
+      user:
+        name: Thomas Mueller
+        description: Global Support Lead at WorldWideServices
+        avatar:
+          src: https://i.pravatar.cc/120?img=14
+cta:
+  title: Start Transforming Your Customer Support Today
+  description: Join thousands of businesses using SaleSmartly to deliver exceptional customer experiences across all channels.
+  links:
+    - label: Start Free Trial
+      to: https://app.salesmartly.com/registration?agent=vn
+      target: _blank
+      icon: i-lucide-rocket
+    - label: View Pricing
+      to: https://salesmartly.vn/pricing
+      trailingIcon: i-lucide-external-link
+      target: _blank
+      variant: subtle

@@ -38,7 +38,7 @@ const toast = useToast()
 
 const email = ref('')
 const loading = ref(false)
-
+const config = useRuntimeConfig()
 function onSubmit() {
   loading.value = true
 
@@ -51,12 +51,14 @@ function onSubmit() {
 
 <template>
   <USeparator
-    icon="i-simple-icons-nuxtdotjs"
+    :avatar="{
+      src: '/logo.png'
+    }"
     class="h-px"
   />
 
   <UFooter :ui="{ top: 'border-b border-default' }">
-    <template #top>
+    <!-- <template #top>
       <UContainer>
         <UFooterColumns :columns="columns">
           <template #right>
@@ -86,7 +88,7 @@ function onSubmit() {
           </template>
         </UFooterColumns>
       </UContainer>
-    </template>
+    </template> -->
 
     <template #left>
       <p class="text-muted text-sm">
@@ -98,9 +100,9 @@ function onSubmit() {
       <UColorModeButton />
 
       <UButton
-        to="https://github.com/nuxt-ui-pro/saas"
+        :to="`https://salesmartly.${config.public.SITE_URL}/pricing/`"
         target="_blank"
-        icon="i-simple-icons-github"
+        icon="i-lucide-log-in"
         aria-label="GitHub"
         color="neutral"
         variant="ghost"

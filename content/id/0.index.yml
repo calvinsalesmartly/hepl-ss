@@ -1,0 +1,150 @@
+title: Transformasi Dukungan Pelanggan dengan SaleSmartly
+description: SaleSmartly adalah platform komunikasi pelanggan omnichannel yang menyatukan live chat, WhatsApp, Facebook Messenger, Instagram, TikTok, Telegram, LINE, Email, VKontakte, dan WeChat ke dalam satu dashboard yang powerful. Dibangun untuk bisnis segala ukuran.
+seo:
+  title: SaleSmartly - Platform Dukungan Pelanggan Omnichannel
+  description: Transformasi dukungan pelanggan Anda dengan platform komunikasi terpadu SaleSmartly. Integrasikan live chat, WhatsApp, Facebook Messenger, dan 8+ saluran dalam satu dashboard.
+navigation: false
+hero:
+  links:
+    - label: Coba Gratis
+      icon: i-lucide-arrow-right
+      trailing: true
+      to: https://app.salesmartly.com/registration?agent=id
+      target: _blank
+      size: xl
+    - label: Lihat Demo
+      icon: i-lucide-play
+      size: xl
+      color: neutral
+      variant: subtle
+      to: /docs
+      target: _blank
+sections:
+  - title: Hub Komunikasi Omnichannel
+    description: Satukan semua percakapan pelanggan dalam satu dashboard yang powerful. Dari live chat hingga pesan media sosial, kelola setiap interaksi dengan lancar melalui 10+ saluran komunikasi.
+    id: features
+    orientation: horizontal
+    features:
+      - name: Integrasi Multi-Channel
+        description: Hubungkan LiveChat, WhatsApp, Facebook, Instagram, TikTok, Telegram, LINE, Email, VKontakte, dan WeChat dalam satu platform.
+        icon: i-lucide-message-square
+      - name: Terjemahan Real-Time
+        description: Hancurkan hambatan bahasa dengan terjemahan otomatis antara Anda dan pelanggan dari seluruh dunia.
+        icon: i-lucide-languages
+      - name: Otomasi AI 24/7
+        description: Chatbot bertenaga AI memberikan respons instan dan menangani pertanyaan rutin sepanjang waktu.
+        icon: i-lucide-bot-message-square
+  - title: Wawasan Pelanggan Cerdas
+    description: Ubah perilaku pengunjung menjadi wawasan yang dapat ditindaklanjuti. Lacak perjalanan pelanggan, analisis preferensi, dan berikan pengalaman personal yang mendorong konversi dan retensi.
+    orientation: horizontal
+    reverse: true
+    features:
+      - name: Pelacakan Pengunjung
+        description: Pantau perilaku browsing, sumber rujukan, dan minat produk untuk memahami intensi pelanggan.
+        icon: i-lucide-eye
+      - name: Database Pelanggan
+        description: Bangun profil komprehensif dengan riwayat interaksi, preferensi, dan data tersinkronisasi lintas sistem.
+        icon: i-lucide-database
+      - name: Analitik Performa
+        description: Pelaporan multi-dimensi untuk memantau kualitas layanan, waktu respons, dan metrik konversi.
+        icon: i-lucide-chart-line
+features:
+  title: Fitur Powerful untuk Dukungan Modern
+  description: Semua yang Anda butuhkan untuk memberikan layanan pelanggan yang luar biasa, dari kontak awal hingga konversi. Streamline operasi dengan otomasi dan wawasan cerdas.
+  items:
+    - title: Widget Live Chat
+      description: Widget chat yang dapat disesuaikan sesuai gaya brand Anda dengan survey lead capture dan pesan proaktif.
+      icon: i-lucide-message-circle
+    - title: Dashboard Omni-Channel
+      description: Pusatkan semua percakapan dari 10+ saluran termasuk media sosial, aplikasi pesan, dan email dalam satu interface.
+      icon: i-lucide-layout-dashboard
+    - title: Otomasi Bertenaga AI
+      description: Chatbot cerdas dengan template siap pakai untuk pesan selamat datang, update pesanan, dan promosi diskon.
+      icon: i-lucide-bot-message-square
+    - title: Terjemahan Real-Time
+      description: Terjemahan pesan otomatis untuk berkomunikasi dengan mudah dengan pelanggan dalam bahasa apa pun.
+      icon: i-lucide-globe
+    - title: Manajemen Hubungan Pelanggan
+      description: CRM komprehensif dengan pelacakan interaksi, riwayat browsing, dan data pelanggan tersinkronisasi.
+      icon: i-lucide-users
+    - title: Analitik Lanjutan
+      description: Laporan detail tentang kualitas layanan, performa tim, dan pola perilaku pelanggan.
+      icon: i-lucide-bar-chart
+testimonials:
+  headline: Kisah Sukses Pelanggan
+  title: Dipercaya oleh Bisnis yang Berkembang
+  description: Bergabunglah dengan ribuan perusahaan di seluruh dunia yang telah mentransformasi dukungan pelanggan mereka dengan platform komunikasi terpadu SaleSmartly.
+  items:
+    - quote: SaleSmartly merevolusi dukungan pelanggan kami. Mengelola WhatsApp, Instagram, dan live chat dari satu dashboard meningkatkan efisiensi tim kami hingga 300%. Fitur terjemahan real-time membantu kami ekspansi ke pasar internasional dengan lancar.
+      user:
+        name: Maria Rodriguez
+        description: Customer Success Manager di GlobalTech
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+    - quote: Otomasi AI menangani 60% pertanyaan rutin kami, memungkinkan tim fokus pada isu kompleks. Skor kepuasan pelanggan kami meningkat dari 3.2 menjadi 4.8 bintang hanya dalam 3 bulan implementasi.
+      user:
+        name: David Chen
+        description: Support Operations Lead di E-commerce Plus
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+    - quote: Pelacakan pengunjung dan wawasan pelanggan benar-benar game-changing. Kami bisa melihat persis produk apa yang dilihat pelanggan sebelum menghubungi, memungkinkan kami memberikan rekomendasi personal yang meningkatkan conversion rate 45%.
+      user:
+        name: Sarah Kim
+        description: Sales Director di FashionForward
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+    - quote: Mengelola percakapan pelanggan di Facebook, Instagram, dan TikTok sangat kacau sebelum SaleSmartly. Sekarang semuanya terorganisir di satu tempat, dan waktu respons kami meningkat dari jam menjadi menit.
+      user:
+        name: Ahmed Hassan
+        description: Social Media Manager di TrendyBrands
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+    - quote: Widget chat yang dapat disesuaikan sempurna sesuai brand kami, dan survey lead capture membantu kami mengumpulkan 40% lebih banyak qualified leads. ROI terlihat jelas dalam bulan pertama.
+      user:
+        name: Emily Watson
+        description: Marketing Director di ServicePro
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+    - quote: Sebagai bisnis yang berkembang, kami butuh solusi yang bisa scale dengan kami. Pricing fleksibel dan fitur powerful SaleSmartly mendukung pertumbuhan kami dari 100 menjadi 10.000 percakapan bulanan.
+      user:
+        name: Michael Torres
+        description: CEO di StartupSuccess
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+    - quote: Dukungan multi-bahasa sangat penting untuk ekspansi Eropa kami. Pelanggan bisa chat dalam bahasa native mereka sementara tim kami menerima pesan yang sudah diterjemahkan - sangat efisien.
+      user:
+        name: Lisa Patel
+        description: International Operations di BorderlessCommerce
+        avatar:
+          src: https://i.pravatar.cc/120?img=11
+    - quote: Dashboard analitik komprehensif memberikan kami insight yang belum pernah kami miliki sebelumnya. Kami bisa track performa tim, kepuasan pelanggan, dan identifikasi peluang improvement secara real-time.
+      user:
+        name: James Wilson
+        description: Customer Experience Manager di DataDriven
+        avatar:
+          src: https://i.pravatar.cc/120?img=10
+    - quote: Integrasi dengan CRM existing kami sangat seamless. Data pelanggan tersinkronisasi otomatis, memberikan sales team visibilitas lengkap terhadap interaksi support dan meningkatkan close rate kami.
+      user:
+        name: Rachel Zhang
+        description: Sales Operations di TechSolutions
+        avatar:
+          src: https://i.pravatar.cc/120?img=12
+    - quote: Chatbot AI 24/7 menangani timezone internasional dengan sempurna. Pelanggan kami mendapat respons instan bahkan ketika tim kami offline, dan isu kompleks ditransfer seamlessly ke human agents.
+      user:
+        name: Thomas Mueller
+        description: Global Support Lead di WorldWideServices
+        avatar:
+          src: https://i.pravatar.cc/120?img=14
+cta:
+  title: Mulai Transformasi Dukungan Pelanggan Anda Hari Ini
+  description: Bergabunglah dengan ribuan bisnis yang menggunakan SaleSmartly untuk memberikan pengalaman pelanggan luar biasa di semua saluran.
+  links:
+    - label: Coba Gratis
+      to: https://app.salesmartly.com/registration?agent=id
+      target: _blank
+      icon: i-lucide-rocket
+    - label: Lihat Harga
+      to: https://salesmartly.id/pricing
+      trailingIcon: i-lucide-external-link
+      target: _blank
+      variant: subtle

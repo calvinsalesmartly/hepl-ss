@@ -1,34 +1,30 @@
+<script setup>
+const { locales, locale, defaultLocale } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+const router = useRouter()
+const items = computed(() =>
+  locales.value.map(l => ({
+    label: l.name,
+    onSelect: () => {
+      router.push(switchLocalePath(l.code))
+    }
+  }))
+)
+const currentLocaleName = computed(() =>
+  locales.value.find(l => l.code === locale.value)?.name || locale.value
+)
+</script>
+
 <template>
   <UDropdownMenu
     v-slot="{ open }"
     :modal="false"
-    :items="[{
-      label: 'Starter',
-      to: 'https://starter-template.nuxt.dev/'
-    }, {
-      label: 'Landing',
-      to: 'https://landing-template.nuxt.dev/'
-    }, {
-      label: 'Docs',
-      to: 'https://docs-template.nuxt.dev/'
-    }, {
-      label: 'SaaS',
-      to: 'https://saas-template.nuxt.dev/',
-      color: 'primary',
-      checked: true,
-      type: 'checkbox'
-    }, {
-      label: 'Dashboard',
-      to: 'https://dashboard-template.nuxt.dev/'
-    }, {
-      label: 'Chat',
-      to: 'https://chat-template.nuxt.dev/'
-    }]"
+    :items="items"
     :ui="{ content: 'w-(--reka-dropdown-menu-trigger-width) min-w-0' }"
     size="xs"
   >
     <UButton
-      label="SaaS"
+      :label="currentLocaleName"
       variant="subtle"
       trailing-icon="i-lucide-chevron-down"
       size="xs"

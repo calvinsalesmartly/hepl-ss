@@ -1,5 +1,9 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryCollection('index').first())
+const { locale } = useI18n()
+const { data: page } = await useAsyncData('index', () => queryCollection('index_' + locale.value).first(), {
+  watch: [locale] // Refetch when locale changes
+})
+console.log('locale', locale.value)
 
 const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description

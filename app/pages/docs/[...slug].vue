@@ -1,32 +1,52 @@
-<script setup lang="ts">
+<script setup >
 definePageMeta({
   layout: 'docs'
 })
-
+const config = useRuntimeConfig()
 const route = useRoute()
+const { locale } = useI18n()
+console.log(route.path, route.path.replace(`/${locale.value}`, ''))
+const cleanPath = useCleanPath()
+console.log(cleanPath.value)
 
-const { data: page } = await useAsyncData(route.path, () => queryCollection('docs').path(route.path).first())
+const { data: page } = await useAsyncData(route.path, () => queryCollection('docs_' + locale.value).path(cleanPath.value).first(), {
+  watch: [locale] // Refetch when locale changes
+})
+
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
-  return queryCollectionItemSurroundings('docs', route.path, {
+  return queryCollectionItemSurroundings('docs_' + locale.value, cleanPath.value, {
     fields: ['description']
   })
+}, {
+  watch: [locale] // Refetch when locale changes
 })
 
 const title = page.value.seo?.title || page.value.title
 const description = page.value.seo?.description || page.value.description
 
+console.log('asda',page.value);
+
 useSeoMeta({
   title,
-  ogTitle: title,
+  ogTitle: page.value.meta.ogTitle ||title,
   description,
-  ogDescription: description
+  ogDescription:  page.value.meta.ogDescription ||description,
+  ogImage: page.value.meta.ogImage ,
+  ogUrl:`https://salesmartly.${config.public.SITE_URL}${page.value.path}/` ,
+  ogType: 'article',
+  twitterCard:page.value.meta.twitterCard||'summary_large_image',
+  twitterSite:page.value.meta.twitterSite || (config.public.SITE_URL=='vn'? "@SalesmartlyVietnam" : "@SalesmartlyIndonesia" ),
+  twitterTitle:page.value.meta.twitterTitle ||title,
+  twitterDescription:page.value.meta.twitterDescription ||title,
+  twitterImage: page.value.meta.twitterImage ,
+  robots: page.value.meta.robots || 'index, follow',
 })
 
-defineOgImageComponent('Saas')
+// defineOgImageComponent('Saas')
 </script>
 
 <template>
