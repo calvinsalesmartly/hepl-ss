@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "cross-env SITE_URL=vn DEF_LANG=vi NUXT_UI_PRO_LICENSE=87R7C97E-7EQ1-EW16-AWC9-F588E62AFEM9 nuxt build",
     "buildvn": "cross-env SITE_URL=vn DEF_LANG=vi NUXT_UI_PRO_LICENSE=87R7C97E-7EQ1-EW16-AWC9-F588E62AFEM9 nuxt build",
     "buildid": "cross-env SITE_URL=id DEF_LANG=id NUXT_UI_PRO_LICENSE=87R7C97E-7EQ1-EW16-AWC9-F588E62AFEM9 nuxt build",
     "dev": "nuxt dev",
