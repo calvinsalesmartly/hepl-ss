@@ -25,14 +25,14 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/docs': { redirect: '/docs/getting-started', prerender: false },
-    '/en/docs': { redirect: '/en/docs/getting-started', prerender: false },
+    '/en/docs': { redirect: '/en/docs/getting-started', prerender: false }
 
   },
   compatibilityDate: '2024-07-11',
   nitro: {
     prerender: {
       routes: ['/'],
-      crawlLinks: false
+      crawlLinks: true
     }
   },
 
