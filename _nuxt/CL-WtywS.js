@@ -1,0 +1,1 @@
+import{_ as a,d as c,i as s,f as e,bP as r,w as l,U as p,bQ as d,bR as f}from"./PqTh_3_2.js";const m={};function u(n,i){const t=r,o=d,_=f;return s(),c("div",null,[e(t),e(o,null,{default:l(()=>[p(n.$slots,"default")]),_:3}),e(_)])}const b=a(m,[["render",u]]);export{b as default};
